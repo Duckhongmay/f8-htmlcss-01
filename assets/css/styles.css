@@ -51,10 +51,12 @@ a {
     z-index: 1;
 }
 .hero-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #e6f0ff;
     height: 100vh;
     position: relative;
-    display: flex;
 }
 .navbar {
     display: flex;
@@ -87,20 +89,16 @@ a {
     margin-left: 18px;
     border-radius: 8px;
 }
-.hero {
-    margin-top: 130px;
-    display: flex;
-}
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     font-weight: 500;
     letter-spacing: 0.18px;
 }
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     margin-bottom: 30px;
     color: #000336;
@@ -108,7 +106,7 @@ a {
     font-weight: 700;
     line-height: 76px; /* 118.75% */
 }
-.hero .desc {
+.hero-wrap .desc {
     color: #5a6473;
     font-size: 1.8rem;
     font-weight: 400;
