@@ -108,7 +108,7 @@ a {
     min-width: 170px;
 }
 .hero-img {
-    height: calc(100vh - 117px);
+    /* height: calc(100vh - 117px); */
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
@@ -294,6 +294,7 @@ a {
     font-weight: 500;
     line-height: 14px; /* 100% */
     letter-spacing: 0.14px;
+    white-space: nowrap;
 }
 /* =========Stats============ */
 .stats {
