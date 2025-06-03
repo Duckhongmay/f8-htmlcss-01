@@ -19,6 +19,7 @@ body {
     max-width: calc(100% - 48px);
     margin: 0 auto;
 }
+a
 .btn {
     display: inline-block;
     min-width: 98px;
